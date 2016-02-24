@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+Logged in as: {{user_name}}
+<a href="{{url}}"><button value= 'login'>{{url_linktext}}</button>
+</a>
+<div class="wrote"
+<h4 style="text-align: center;">
+My notes
+</h4>
+</div>
+<blockquote>
+<pre>
+{{my_notes}}
+</pre>
+</blockquote>
+<div class="wall_label">
+<form>
+<h1>{{wall_label}}</h1>
+<p>
+15 Characters max.
+<input value="{{wall_name}}" name="wall_name">
+<p>
+<input type="submit" value="Switch">
+</form>
+<form action="/index?{{sign_query_params}}" method="post">
+</div>
+<p>
+<h2>
+1000 characters max.
+</h2>
+<textarea autofocus name="content" rows="10" cols="60"wrap="hard"></textarea>
+<p>
+<input type="submit" value="Post Comment">
+</form>
+{{posts_html}}
+{% endblock %}

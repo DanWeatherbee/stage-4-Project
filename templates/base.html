@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Stage 4 Datastore</title>
+<style>
+
+.body_shell{
+	box-shadow: 10px 10px 5px #375048;
+	border: 10px dotted;
+	border-color: #710202;
+	padding-left: 100px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	box-shadow: 10px 10px 5px #888888;
+	width:800px;
+	background-color: #E0E0E0;
+}
+.warning{
+	border: 15px solid;
+	border-color: red;
+	color: white;
+	background-color: #E0E0E0;
+	font-size: 9pt;
+	border-radius: 10%;
+	max-width:520px;
+	box-shadow: 10px 10px 5px #888888;
+	padding: 1%;
+	text-align: center;
+
+}
+.w_text{
+	border-color: black;
+	border: 2px solid;
+	background-color: #bbb;
+	border-radius: 5%;
+    box-shadow: 10px 10px 5px #888888;
+
+}
+textarea{
+	    box-shadow: 10px 10px 5px #888888;
+		border-top: 20px solid;
+		border-left: 3px solid;
+		border-right: 3px solid;
+		border-bottom: 5px solid;
+		background-color: white;
+		border-radius: 5%;
+		border-color: #8EC4FF;
+		margin-left: 14%;
+
+}
+.wrote{
+
+	    box-shadow: 10px 10px 5px #166267;
+		border: 2px solid;
+		background-color: #057D72;
+		border-radius: 5%;
+		border-color: #8EC4FF;
+		padding: 1%;
+		color: white;
+		text-align: center;
+		width: 50px;
+		height: 30px;
+
+}
+.wall_label{
+
+	    box-shadow: 10px 10px 5px #166267;
+		border: 2px solid;
+		background-color: #057D72;
+		border-radius: 5%;
+		border-color: #8EC4FF;
+		padding: 1%;
+		color: white;
+		text-align: center;
+		width: 80%;
+		height: 100%;
+}
+
+h1{
+	    box-shadow: 10px 10px 5px #0AF9F9;
+	    text-align: center;
+		background-color: #17C8E4;
+		max-width:380px;
+		border: 5px solid;
+		border-color: #AD9740;
+		border-radius: 10%;
+}
+.header{
+	    box-shadow: 10px 10px 5px #42BFBF;
+		padding-left: 10%;
+		padding-bottom: 10%;
+		max-width:610px;
+		border: 5px solid;
+		background-color: #4D29A2;
+		max-height: 70px;
+		border-radius: 20%;
+		font-style: monospace;
+		color: white;
+		text-align: center;
+}
+blockquote{
+	    box-shadow: 10px 10px 5px #166267;
+		border-top: 20px solid;
+		border-left: 3px solid;
+		border-right: 3px solid;
+		border-bottom: 5px solid;
+		background-color: white;
+		border-radius: 5%;
+		border-color: #5F1836;
+		padding: 3%;
+		width: 550px;
+}
+.msg_box{
+	    box-shadow: 10px 10px 5px #888888;
+		border-top: 20px solid;
+		border-left: 3px solid;
+		border-right: 3px solid;
+		border-bottom: 5px solid;
+		background-color: #057D72;
+		border-radius: 5%;
+		border-color: #8EC4FF;
+		padding: 3%;
+		width: 80%;
+}
+.author{
+	    box-shadow: 10px 10px 5px #166267;
+		border: 2px solid;
+		background-color: #057D72;
+		border-radius: 5%;
+		border-color: #8EC4FF;
+		padding: 1%;
+		color: white;
+		text-align: center;
+}
+.footer{
+		border-color: black;
+		background-color: #bbb;
+		border-radius: 5%;
+	    box-shadow: 10px 10px 5px #888888;
+	    width: 85%;
+	    height: 20%;
+	    text-align: center;
+	    font-weight: 900;
+	    padding: 1%;
+}
+</style>
+</head>
+<html>
+<body style='padding-left: 10%; background-color: #00BCD4;'>
+<div class='body_shell'>
+<div class='header'>
+<h1>
+Cyberdans Templates
+</h1>
+Welcome to my Website, This is my Stage 4 Project.
+</div>
+<br>
+{% block content %}
+{% endblock %}
+<div class="footer">
+<h4>
+This is the footer area, defined in the base.html.
+<br>
+Copyright belongs to Cyberdans Nanodegree 2016
+</h4>
+</div>
+</div>
+</div>
+</body>
+</html>

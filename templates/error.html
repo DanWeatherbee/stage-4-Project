@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/index?{{sign_query_params}}" method="post">
+<p>
+<textarea class= 'content'name="content" rows="10" cols="60"wrap="hard"></textarea>
+<p>
+<div class='warning'>
+<h2 class='w_text'>
+Something went wrong, we sent
+your request and got nothing or you hit max characters.
+</h2>
+</div>
+<h4>
+Please keep it under 1000 characters.
+</h4>
+<input type="submit" value="Post Comment">
+</form>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>
+<div class='w_text'>
+Something went wrong, we got nothing or you hit max characters.
+</div>
+</h2>
+<div class='warning'>
+<h2>
+<div class='w_text'>
+15 Characters max, Please do not leave blank.
+</div>
+</h2>
+<h1>
+Please choose or create a wall name.
+</h1>
+</div>
+<form>
+<h1>
+<input value="{{wall_name}}" name="wall_name">
+</h1>
+<p>
+<input type="submit" value="Switch">
+</form>
+{% endblock %}
