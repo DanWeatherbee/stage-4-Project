@@ -1,7 +1,7 @@
 # stage-4-Project
 The Allow Comments Project.
 
-Got my Cloud app running. Its my Allow Comments Project, running in the Cloud.
+Built a Python back end using Google App Engine, Jinja2 HTML templates,
+and a database to host a web page online and allow user comments.
 https://stage5-1231.appspot.com/
 
-This app uses the clouds infrastructure made up of a football field of computers. The website is lightning fast and can scale to a million users or more.
